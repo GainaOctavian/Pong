@@ -1,7 +1,66 @@
-# Pong-Python-
-In this project I made a simplified pong game by mostly making use of the turtle library for the shapes of the paddles (paleta), the ball (minge) and the pen (pix).
-Aditionally, I utilising the winsound library in order to incorporate a sound for the bouncing of the ball. After defining all the elements I'm using, I established functions 
-for every movement of the paddles (paleta_a, paleta_b). After this I made some keybindings for both of the players, as the game is supposed to be played on the same 
-computer. After all this, I created the main while loop, that updates the screen after every iteration. In this loop I made a few if statements that verify if the ball(minge) has 
-reached one of the margins and, if so, modifying the player score and resetting the game. After this, I formed some if statements that verify the ball (minge) and 
-paddle (paleta) collisions, and if confirmed, triggering the ball bouncing sound and redirecting the ball's course.
+
+# Pong Game - Python Implementation
+
+**Project by Aurelian-Octavian Găină**  
+*Simplified Pong Game developed using Python*
+
+## 🎮 Overview
+
+This project is a simplified version of the classic Pong game, developed in Python. It utilizes the `turtle` library for creating graphical elements such as paddles, the ball, and the scoreboard. Additionally, the `winsound` library is used to incorporate sound effects for ball bounces, enhancing the gaming experience.
+
+## 🚀 Features
+
+- **Two-Player Mode:** Play locally with friends on the same computer.
+- **Simple Controls:** Keyboard bindings for paddle movements.
+- **Sound Effects:** Realistic bounce sounds using `winsound`.
+- **Dynamic Gameplay:** Real-time ball speed and direction changes.
+- **Score Tracking:** Automatically updates scores when goals are made.
+
+## 🛠️ Technologies Used
+
+- **Python 3.x**
+- **Turtle Library:** For graphical interface and game rendering.
+- **Winsound Library:** For adding sound effects.
+
+## 📦 Project Structure
+
+```
+Pong-Python/
+├── main.py               # Main script to run the Pong game
+├── README.md             # Project documentation
+└── resources/            # (Optional) Folder for additional assets
+```
+
+## ⚙️ How to Run
+
+### Prerequisites
+- Python 3.x installed on your system
+
+### Running the Game
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/GainaOctavian/Pong-Python.git
+   cd Pong-Python
+   ```
+
+2. **Run the Game:**
+   ```bash
+   python main.py
+   ```
+
+Enjoy the game!
+
+## 🎯 Controls
+
+- **Player A (Left Paddle):**
+  - `W` - Move Up
+  - `S` - Move Down
+
+- **Player B (Right Paddle):**
+  - `Up Arrow` - Move Up
+  - `Down Arrow` - Move Down
+
+## 🙌 Credits
+
+This project was developed by Aurelian-Octavian Găină as a learning exercise to practice Python programming, graphical interfaces with `turtle`, and integrating basic sound effects.
